@@ -1,6 +1,6 @@
 import asyncio
 import os
-from telegram.ext import Application, CommandHandler, MessageHandler, filters
+from telegram import Application, CommandHandler, MessageHandler, filters
 from telegram.constants import ChatType
 from telegram.error import RetryAfter, TimedOut, NetworkError
 import logging
